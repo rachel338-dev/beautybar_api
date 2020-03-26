@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Beauty Bar app that allows you to look up Beauty Bars in Toronto, along with services provided. It has the following:
 
-Things you may want to cover:
+A store model stores the beauty bar stores - name, address, city.
+The services model stores the services that each store provides - name of services, treatment-type, price.
+A store controller
+A service controller
 
-* Ruby version
+Some things it can do:
 
-* System dependencies
+Find out which stores provide certain services, and the prices of service. 
+Display all of the services a store has.
 
-* Configuration
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
